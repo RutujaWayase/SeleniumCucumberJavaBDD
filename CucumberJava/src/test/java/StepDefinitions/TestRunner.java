@@ -1,12 +1,12 @@
-
-/*package StepDefinitions;
+package StepDefinitions;
 
 import org.junit.runner.RunWith;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features",glue={"StepDefinitions"},
+//@CucumberOptions(features="src/test/resources/Features",glue={"StepDefinitions"},
+@CucumberOptions(features="src/test/resources/Features/GoogleSearch.feature",glue={"StepDefinitions"},
 monochrome = true,
 //plugin = {"pretty","html:target/HtmlReports/report.html"}
 //plugin = {"pretty", "json:target/JSONReports/report.json"}
@@ -14,11 +14,11 @@ monochrome = true,
 plugin = {"pretty", "junit:target/JUnitReports/report.xml",
 		"json:target/JSONReports/report.json",
 		"html:target/HtmlReports/report.html"
-		},
-tags="@smoketest"
+		}
+//,
+//tags="@smoketest"
 		)
 public class TestRunner {
 	
 
 }
-*/
