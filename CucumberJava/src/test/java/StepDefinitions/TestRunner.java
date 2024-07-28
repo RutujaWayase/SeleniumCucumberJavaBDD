@@ -6,7 +6,8 @@ import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 //@CucumberOptions(features="src/test/resources/Features",glue={"StepDefinitions"},
-@CucumberOptions(features="src/test/resources/Features/GoogleSearch.feature",glue={"StepDefinitions"},
+//@CucumberOptions(features="src/test/resources/Features/GoogleSearch.feature",glue={"StepDefinitions"},
+@CucumberOptions(features="src/test/resources/Features/LoginDemoSteps.feature",glue={"StepDefinitions"},
 monochrome = true,
 //plugin = {"pretty","html:target/HtmlReports/report.html"}
 //plugin = {"pretty", "json:target/JSONReports/report.json"}
